@@ -1,6 +1,7 @@
 package _02_gotta_catchem_all;
 
-public class ExceptionMethods {
+@SuppressWarnings("serial")
+public class ExceptionMethods extends Exception {
 	
 	double divide(double dividend, double divisor) {
 		if (divisor == 0.0) {
